@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="chatbox.css">
+    </head>
+    <body>
+        <!-- <img id="tempBg" src="./temp.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; object-fit: cover;"> -->
+        
+        <div id="chatbox">
+            <div id="header">
+                <h1>Mother's Chatbox</h1>
+            </div>
+
+            <div id="body">
+                <div id="messages-container">
+                    <div id="messages">
+                    </div>
+                </div>
+
+                <div id="input-container">
+                    <input type="text" placeholder="Type your message here...">
+                    <button id="emojis-button" onclick="toggleEmojisPanel()">
+                        <img src="https://mother-emojis.new-systems.dev/random/smileys-emotion" alt="Emojis">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="emojis-container">
+            <div id="emojis-grid">
+            </div>
+
+            <div id="emojis-tabs">
+            </div>
+        </div>
+
+        <script src="chatbox.js"></script>
+    </body>
+</html>
